@@ -1,0 +1,16 @@
+Algoritmo AñoBiciesto
+	Escribir "Ingrese un año para determinar si es bisiesto:"
+    Leer anio
+	
+    Si anio MOD 4 = 0 Entonces
+        Si anio MOD 100 <> 0 O anio MOD 400 = 0 Entonces
+            esBisiesto <- Verdadero
+        Fin Si
+    Fin Si
+	
+    Si esBisiesto Entonces
+        Escribir anio, " es un año bisiesto."
+    SiNo
+        Escribir anio, " no es un año bisiesto."
+    Fin Si
+Fin Algoritmo
